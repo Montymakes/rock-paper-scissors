@@ -3,13 +3,13 @@
 
 
 ## Psuedo Code
-- [ ] Initialize an option array that contains the strings: "Rock", "Paper", and "Scissors".
+- [X] Initialize an option array that contains the strings: "Rock", "Paper", and "Scissors".
 
-- [ ] Create a function, getComputerChoice, that: 
+- [X] Create a function, getComputerChoice, that: 
     - Sets a random index between 0 and the last index of the options array. 
     - Returns the computer's choice as the string located at the random index in the options array.
 
-- [ ] Create a function, getHumanChoice that:
+- [X] Create a function, getHumanChoice that:
     - Initializes an input variable that allows the user to pick a write in their option. 
         - Input must exist in options array.
         - Is case insensitive.
@@ -36,7 +36,7 @@
         - Increment currentRound variable.
     - Log the result of the game.
         - If computerScore is less than humanScore, log "You win the game!"
-        - Else if computerScore is more than humanScore, log "You lose! COmputer won the game."
+        - Else if computerScore is more than humanScore, log "You lose! Computer won the game."
         - Else log "It's a tie."
 
 
