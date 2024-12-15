@@ -13,8 +13,8 @@ function getHumanChoice() {
         if (cleanInput === option.toLowerCase()) return option;
     }
     alert('Please type a valid option!')
-    getHumanChoice();
-    return;
+    
+    return getHumanChoice();
 }
 // Tests:
 console.log(`You picked ${getHumanChoice()}`);
