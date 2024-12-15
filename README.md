@@ -1,5 +1,5 @@
-# Eock-Paper-Scissors
-## Goal: A game of Rock, Paper, Scissors between the user and the computer.
+# Rock-Paper-Scissors
+## Description: A game of Rock, Paper, Scissors between a human and a computer.
 
 
 ## Psuedo Code
@@ -21,14 +21,14 @@
 
 - [X] Create a function, playRound, that accepts humanChoice and computerChoice as parameters and logs a message to the console that indicates who won and why.
     - If humanChoice is rock and computerChoice is scissors, or humanChoice is scissors and computerChoice is paper, or humanChoice is paper and computerChoice is rock. 
-     - Log "You win! humanChoice beats computerChoice." Replace choices with their actual values.
-     - Increment humanScore.
+        - Log "You win! humanChoice beats computerChoice." Replace choices with their actual values.
+        - Increment humanScore.
     - Else if computerChoice is rock and humanChoice is scissors, or computerChoice is scissors and humanChoice is paper, or computerChoice is paper and humanChoice is rock.
         - Log "You lose! computerChoice beats humanChoice." Replace choices with their actual values.
         - Increment computerScore.
     - Else log "It's a tie!"
 
-- [ ] Write a function, playGame that:
+- [X] Write a function, playGame that:
     - Contains  the playRound function and score variables within it.
     - Initalizes a currentRound variable to 1 and a totalRounds variable to 5.
     - While currentRound is less than or equal to totalRounds.
