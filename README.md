@@ -15,11 +15,11 @@
         - Is case insensitive.
     - Return the match from from the options array.
 
-- [ ] Initialize variables for score keeping.
+- [X] Initialize variables for score keeping.
     - Set humanScore to 0.
     - Initialize computerScore to 0.
 
-- [ ] Create a function, playRound, that accepts humanChoice and computerChoice as parameters and logs a message to the console that indicates who won and why.
+- [X] Create a function, playRound, that accepts humanChoice and computerChoice as parameters and logs a message to the console that indicates who won and why.
     - If humanChoice is rock and computerChoice is scissors, or humanChoice is scissors and computerChoice is paper, or humanChoice is paper and computerChoice is rock. 
      - Log "You win! humanChoice beats computerChoice." Replace choices with their actual values.
      - Increment humanScore.
